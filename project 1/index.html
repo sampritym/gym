@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<body>
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('images/gym1.jpg');
+            background-size: cover;
+            
+        }
+        .left{
+            
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            display: inline-block;
+         /* border: 2px solid red; */
+        }
+        .mid{
+          
+            width: 50%;
+            margin:20px auto;
+            
+        /* border: 2px solid green; */
+        }
+        .right{
+            display: inline-block;
+            position: absolute;
+            top: 20px;
+            right:20px;
+          /* border: 2px solid yellow; */
+        }
+
+        .navbar li{
+            display: inline-block;
+            
+            
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 15px 15px;
+        }
+        .navbar li a.active{
+            text-decoration: underline;
+        }
+        .navbar li a:hover{
+            color: gray;
+           
+        }
+        .left img{
+            width: 100px;
+        }
+        .left div{
+            text-align: center;
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color:transparent;
+            color: black;
+            padding: 3px 4px;
+            border: 2px solid black;
+            border-radius:5px;
+            cursor: pointer;
+        }
+        .container{
+            border: 2px solid white; 
+            margin:163px 52px;
+            width: 47%;
+            padding:64px 49px;
+            border-radius: 18px;;
+        }
+        .form-group input{
+            border: transparent;
+            text-align: center;
+            margin: 8px auto;
+            display: block;
+            width: 51%;
+            padding:8px;
+            border-radius: 10px;;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            margin: auto;
+            width: 42%;
+            padding: 8px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .container button:hover{
+            color: gray;
+        }
+        </style>
+        <header class="header">
+         <!-- left for logo -->
+            <div class="left">
+                <img src="images/gym 2.jpg">
+                <div>
+                    Fitness Gym
+                </div>
+
+            </div>
+            <!-- mid for navigation -->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#"class="active">About us</a></li>
+                    <li><a href="#"class="active">Fitness Calculator</a></li>
+                    <li><a href="#"class="active">Contact us</a></li>
+                </ul>
+
+            </div>
+            <!-- right for other buttons -->
+            <div class="right">
+                <button class="btn">Login</button>
+                <button class="btn">Email us</button>
+
+
+            </div>
+        </header>
+    <div class="container">
+        <h1>JOIN THE BEST GYM OF DELHI</h1> 
+        <form>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Address">
+        </div>
+        <button >Submit</button>
+
+
+    </div>
+</body>
+</html>
